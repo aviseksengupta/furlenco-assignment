@@ -2,12 +2,12 @@
 
 This project creates a basic backend application for storing student details. 
 
-##Setup:
+## Setup:
 
 Installation:   mvnw clean install
 Run application: mvnw spring-boot:run
 
-##Technical Details:
+## Technical Details:
 
 The api is created using spring boot. The application is attempted to be extendable in terms of the features provided (including apis 
 and filters). 
@@ -18,13 +18,13 @@ for testing the application.
 
 All queries are configured in Queries.java for configurability.
 
-##H2 DB Console:
+## H2 DB Console:
 Login url: http://localhost:8080/h2-console/login.do
 Username: sa
 Password: <blank>
 jdbc url: jdbc:h2:mem:testdb
 
-##API Details
+## API Details
 
 GET /students
 QueryParams:
