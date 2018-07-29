@@ -24,6 +24,9 @@ Username: sa
 Password: <blank>
 jdbc url: jdbc:h2:mem:testdb
 
+## Tests
+Postman test cases included in src/test/resources
+
 ## API Details
 
 GET /students
